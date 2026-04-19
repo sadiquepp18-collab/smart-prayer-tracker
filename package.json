@@ -1,8 +1,6 @@
 
 {
-  "scripts": {
-  "build": "set DISABLE_ESLINT_PLUGIN=true && craco build"
-}
+  
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
@@ -64,7 +62,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "craco build",
+    "build": "DISABLE_ESLINT_PLUGIN=true craco build",
     "test": "craco test"
   },
   "browserslist": {
